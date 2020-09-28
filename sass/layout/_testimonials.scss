@@ -1,0 +1,180 @@
+.testimonials{
+    margin-bottom: 80rem;
+    
+    &__cards{
+        position: relative;
+    }
+    
+    &__card{
+        // card general
+        position: relative;
+        display: inline-block;
+        background-color: #fff;
+        border-radius: 3rem;
+        box-shadow: 0 5rem 9.9rem rgba(0, 0, 0, 0.16);
+        transition: all .2s;
+
+        &:hover{
+            transform: translateY(-.5rem) scale(1.01);
+        }
+
+        // card 1
+        &--1{
+            position: absolute;
+            width: 50rem;
+            padding: 8rem 6.5rem;
+            top: 5rem;
+            left: 50%;
+            transform: translateX(-50%) translateY(0rem) scale(1);
+            z-index: 5;
+            
+            &:hover{
+                transform: translateX(-50%) translateY(-.5rem) scale(1.01);
+
+            }
+
+        }
+
+        // card 2
+        &--2{
+            position: absolute;
+            width: 40rem;
+            padding: 5.5rem 3.3rem;
+            top: 0;
+            left: -5rem;
+            z-index: 4;
+
+           
+        }
+
+        // card 3
+        &--3{
+            position: absolute;
+            width: 35rem;
+            padding: 4.5rem 3rem;
+            top: 30rem;
+            right: -5rem;
+            z-index: 4;
+
+           
+        }
+
+        // card 4
+        &--4{
+            position: absolute;
+            width: 37rem;
+            padding: 4.5rem 3rem;
+            top: 50rem;
+            right: 20rem;
+            z-index: 4;
+
+           
+        }
+
+        // card 5
+        &--5{
+            position: absolute;
+            width: 37rem;
+            padding: 4.5rem 3rem;
+            top: 40rem;
+            left: 0rem;
+            z-index: 4;           
+        }
+
+        // paragraph
+        &--paragraph{
+            font-family: "roboto";
+            color: #8C8A8D;
+            text-align: center;
+
+            
+            &-1{
+                font-size: 2.2rem;
+            }
+
+            &-2{
+                font-size: 1.6rem;
+            }
+
+            &-3{
+                font-size: 1.2rem;
+            }
+
+            &-4{
+                font-size: 1.4rem;
+            }
+
+            &-5{
+                font-size: 1.6rem;
+            }
+        }
+
+        // image 
+        &--img{
+            position: absolute;
+ 
+            top: 80%;
+            left: 50%;
+            transform: translateX(-50%);
+            border-radius: 50%;
+
+            &-1{
+                width: 10rem;
+            }
+
+            &-2{
+                width: 7.5rem;
+            }
+
+            &-3{
+                width: 6.5rem;
+            }
+            
+            &-4{
+                width: 8rem;
+            }
+            
+            &-5{
+                width: 8.5rem;
+            }
+        }
+
+        // qoute
+        &--quote{
+            position: absolute;
+            font-family: "roboto";
+            color: #7a098010;
+
+            &-1{
+                font-size: 20rem;
+                top: -25%;
+                left: 5%;
+            }
+
+            &-2{
+                font-size: 15rem;
+                top: -25%;
+                left: 5%;
+            }
+
+            &-3{
+                font-size: 10rem;
+                top: -20%;
+                left: 5%;
+            }
+
+            &-4{
+                font-size: 12rem;
+                top: -20%;
+                left: 5%;
+            }
+
+            &-5{
+                font-size: 13rem;
+                top: -20%;
+                left: 5%;
+            }
+
+        }
+    }
+}

@@ -1,0 +1,63 @@
+.nav{
+    margin-bottom: 9rem;
+
+    &__ul{
+        height: 100px;
+        display: flex;
+        align-items: center;
+        list-style: none;
+        font-size: 1.6rem;
+        
+
+        
+    }
+
+    &__item{
+        
+        & a:link,
+        & a:visited{
+            color: $color_gray_dark;
+            text-decoration: none;
+            text-transform: capitalize;
+            font-weight: 500;
+            border-bottom: 1px solid transparent;
+            transition: all .2s;
+        }
+
+        & a:hover:not(.btn__text){
+            border-bottom: 1px solid $color_gray_dark;
+        }
+
+        &:not(:last-child){
+            margin-right: 4rem;
+        }
+    }
+
+    &__log-in{
+        margin-left: auto;
+    }
+
+}
+
+
+.header{
+
+
+    &__text{
+        width: 80%;
+
+
+        &--primary{
+            font-size: 6.9rem;
+            margin-bottom: 2rem;
+        }
+
+        &--secondary{
+            font-size: 2.4rem;
+        }
+    }
+
+    &__image{
+        width: 110rem;
+    }
+}

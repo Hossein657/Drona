@@ -1,0 +1,27 @@
+
+*,
+*::after,
+*::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+html{
+    font-size: 62.5%;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "raleway" , sans-serif , tahoma;
+    font-weight: 400;
+    color: $color-gray-dark;
+    line-height: 1.7;
+    background-color: #f6f6f6;
+    background-image: url(../img/path.png);
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    
+
+}
