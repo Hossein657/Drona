@@ -1,0 +1,82 @@
+
+
+.footer{
+    background-image: url(img/path.png);
+
+    
+
+    &__logo{
+        width: 15rem;
+        margin-left: 5rem;
+    }
+
+    &__ul{
+        list-style: none;
+        font-family: "roboto";
+        font-size: 1.6rem;
+        color: #fff;
+    }
+
+    &__title{
+        font-weight: 700;
+        margin-bottom: 1.5rem;
+    }
+
+    &__item{
+        display: inline-block;
+        color: $color-white;
+        text-decoration: none;
+        margin-bottom: 1rem;
+        border-radius: .5rem;
+        padding: 0 1rem;
+        transition: all .2s;
+    
+        &:hover{
+            background-color: $color-white;
+            color: $color-primary;
+            transform: translateY(-.3rem);
+        }
+    }
+
+    &__icon{
+        margin-right: 1rem;
+        
+    }
+
+    &__row{
+        border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+        padding-bottom: 2rem;
+        margin-bottom: 1rem;
+    }
+
+
+}
+
+
+.credit{
+
+    &__paragraph{
+        text-decoration: none;
+        color: #fff;
+        font-size: 1.4rem;
+        
+    }
+    
+    &__link{
+        display: inline-block;
+        text-decoration: none;
+        background-color: $color-primary;
+        color: #fff;
+        padding:0 .5rem;
+        border-radius: .5rem;
+        transition: all .2s;
+
+        &:hover{
+            box-shadow: 0 1rem 2rem rgba(0,0,0,0.2);
+            transform:scale(1.1);
+            background-color: $color-white;
+            color: $color-primary;
+        }
+    }
+}
+

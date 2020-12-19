@@ -1,8 +1,12 @@
 .nav{
-    margin-bottom: 9rem;
+    margin-bottom: 5rem;
+
+    &__logo{
+        height: 5rem;
+    }
 
     &__ul{
-        height: 100px;
+        height: 10rem;
         display: flex;
         align-items: center;
         list-style: none;
@@ -16,7 +20,7 @@
         
         & a:link,
         & a:visited{
-            color: $color_gray_dark;
+            color: $color_white;
             text-decoration: none;
             text-transform: capitalize;
             font-weight: 500;
@@ -25,7 +29,7 @@
         }
 
         & a:hover:not(.btn__text){
-            border-bottom: 1px solid $color_gray_dark;
+            border-bottom: 1px solid $color_white;
         }
 
         &:not(:last-child){
@@ -41,6 +45,9 @@
 
 
 .header{
+    background-image:radial-gradient(rgba(0, 0, 0, 0.6) , rgba(0, 0, 0, 0.6)),url(../img/header.png);
+    background-size: cover;
+    padding-bottom: 10rem;
 
 
     &__text{
@@ -48,16 +55,15 @@
 
 
         &--primary{
+            color: $color_white;
             font-size: 6.9rem;
             margin-bottom: 2rem;
         }
 
         &--secondary{
+            color: $color_white;
             font-size: 2.4rem;
         }
     }
 
-    &__image{
-        width: 110rem;
-    }
 }
